@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        .login{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 200px;
+            margin-left: -200px;
+            margin-top: -100px;
+            background-color: #eeeeee;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1 style="text-align: center">登录</h1>
+        <form action="/login/" method="POST">
+            <p style="text-align: center">
+                <input type="text" name="user" placeholder="请输入用户名">
+            </p>
+            <p style="text-align: center;">
+                <input type="text" name="pwd" placeholder="请输入密码">
+            </p>
+
+            <div style="text-align: center;display: block">
+                <input type="submit" value="登录">
+                <a href="/register/">注册</a>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
